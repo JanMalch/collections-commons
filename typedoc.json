@@ -1,0 +1,17 @@
+{
+  "entryPoints": [
+    "./src/types",
+    "./src/data-structures",
+    "./src/extensions/array",
+    "./src/extensions/iterable",
+    "./src/extensions/map",
+    "./src/extensions/multi-value-map",
+    "./src/extensions/record",
+    "./src/functions"
+  ],
+  "out": "./docs",
+  "tsconfig": "./tsconfig.esm.json",
+  "excludePrivate": true,
+  "excludeExternals": true,
+  "excludeInternal": true
+}
